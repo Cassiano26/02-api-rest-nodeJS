@@ -65,7 +65,7 @@ npm run dev
 
 ## Environment Variables
 
-The project requires the following environment variables, which can be found in the `.env.example` file:
+The project requires the following environment variables on `.env`, which can be found in the `.env.example` file:
 
 ```plaintext
 DATABASE_URL="./db/app.db"
