@@ -8,7 +8,7 @@ The project is deployed at: [https://zero2-api-rest-nodejs-z216.onrender.com/](h
 
 ## API Routes
 
-### POST /transactions
+### POST `/transactions` ![POST](https://img.shields.io/badge/POST-blue)
 
 Create a new transaction.
 
@@ -22,19 +22,17 @@ Create a new transaction.
 }
 ```
 
-Create a new transaction.
-
-### GET /transactions/summary
+### GET `/transactions/summary` ![GET](https://img.shields.io/badge/GET-green)
 
 Retrieve a summary of all transactions.
 
-### GET /transactions/:id
+### GET `/transactions/:id` ![GET](https://img.shields.io/badge/GET-green)
 
 Retrieve a specific transaction by its ID.
 
 Example: `/transactions/dab91a11-0ffc-4864-8f1a-32a46dd6bed5`
 
-### GET /transactions
+### GET `/transactions` ![GET](https://img.shields.io/badge/GET-green)
 
 Retrieve all transactions.
 
