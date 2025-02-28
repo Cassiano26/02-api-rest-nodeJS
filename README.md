@@ -12,6 +12,18 @@ The project is deployed at: [https://zero2-api-rest-nodejs-z216.onrender.com/](h
 
 Create a new transaction.
 
+#### Request Body
+
+```json
+{
+  "title": "dev service",
+  "amount": 200,
+  "type": "debit"
+}
+```
+
+Create a new transaction.
+
 ### GET /transactions/summary
 
 Retrieve a summary of all transactions.
